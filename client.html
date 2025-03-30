@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RabbiChessClub</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/new-logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>Nairobi, Kenya</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>RabbiChess.academy@gmail.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0"><img src="img/new-logo.png" style="object-fit: contain;" alt="" width="100" height="60"></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                     
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="service.html" class="dropdown-item">Service</a>
+                            
+                            <a href="team.html" class="dropdown-item">Our Team</a>
+                            <a href="404.html" class="dropdown-item active">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-outline-primary py-2 px-3" href="contact.html">
+                        Enroll Now
+                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-4">Editor</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Editor</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div class="row g-5">
+        
+    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Editor</div>
+        <h1 class="display-6 mb-5">Carousel</h1>
+        <p class="mb-4"></p>
+        <form action="https://formspree.io/f/xeoallrd"
+        method="POST">
+            <div class="row g-3">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Carousel-1</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="name" name="name" class="form-control" name="name" id="name" placeholder="Push limits, embrace challenges, achieve greatness">
+                        <label for="name">Carousel-1 Header-1</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Carousel-1 paragraph-1" id="subject" placeholder="Carousel-1 paragraph-1">
+                        <label for="subject">Carousel-1 paragraph-1</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Carousel-2</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="name" name="name" class="form-control" name="name" id="name" placeholder="Work together, overcome hurdles with unity">
+                        <label for="name">Carousel-2 header-2</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Carousel-2 paragraph-2" id="subject" placeholder="Carousel-2 paragraph-2">
+                        <label for="subject">Carousel-2 paragraph-2</label>
+                    </div>
+                </div>
+                <h1 class="display-6 mb-5">About </h1>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About-Section</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="name" class="form-control" name="About-sub-header" id="name" placeholder="About Rabbi Chess Club">
+                        <label for="name">About sub-header</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="About-Header" id="subject" placeholder="About-Header">
+                        <label for="subject">About-Header</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="About-Paragraph" id="subject" placeholder="About-Paragraph">
+                        <label for="subject">About-Paragraph</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Vision</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="name" name="vision" class="form-control"  id="name" placeholder="Vision">
+                        <label for="name">Vision-para</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">mission</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="name" name="vision" class="form-control"  id="name" placeholder="Vision">
+                        <label for="name">Mission-para</label>
+                    </div>
+                </div>
+                
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Description</div>
+
+                
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Brief description" id="subject" placeholder="Brief description">
+                        <label for="subject">Brief description</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="Core Values" placeholder="List Core Values" id="message" style="height: 100px"></textarea>
+                        <label for="message">Core Values</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Motivation" id="subject" placeholder="Motivation">
+                        <label for="subject">Motivation</label>
+                    </div>
+                </div>
+                <h1 class="display-6 mb-5">Ignite change: join our cause. </h1>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">ignite change Cause section</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="name" class="form-control" name="ignite-change-header" id="name" placeholder="About Rabbi Chess Club">
+                        <label for="name">ignite change Header</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Chess education section</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Chess Education header" id="subject" placeholder="Chess Education header">
+                        <label for="subject">Chess Education header</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="Chess Education  paragraph" placeholder="Chess Education paragraph" id="message" style="height: 100px"></textarea>
+                        <label for="message">chess education paragraph</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Tournament section</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Tournament Header" id="subject" placeholder="Tournament Header">
+                        <label for="subject">Tournament Header</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="Tournament Paragraph" placeholder="Tournaments cultivates teamwork, discipline, and determination while building physical fitness, mental resilience, and social skills. It fosters vital life skills and healthy competition boosting confidence and unity across all ages" id="message" style="height: 100px"></textarea>
+                        <label for="message">Tournaments cultivates teamwork, discipline, and determination while building physical fitness, mental resilience, and social skills. It fosters vital life skills and healthy competition boosting confidence and unity across all ages</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Excursion section</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Excursion Header" id="subject" placeholder="Excursion Header">
+                        <label for="subject">Excursion Header</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="Excursion Paragraph" placeholder="Excursion cultivates teamwork, discipline, and determination while building physical fitness, mental resilience, and social skills. It fosters vital life skills and healthy competition boosting confidence and unity across all ages" id="message" style="height: 100px"></textarea>
+                        <label for="message">Excursion cultivates discipline, resilience, and respect, balancing physical strength with mental fortitude. This martial art develops self-confidence, focus, and integrity, empowering practitioners to excel in athletic, academic, and personal pursuits.</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Enroll section</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Enroll Header" id="subject" placeholder="Enroll">
+                        <label for="subject">Enroll Header</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="Enroll Paragraph" placeholder="Enroll cultivates teamwork, discipline, and determination while building physical fitness, mental resilience, and social skills. It fosters vital life skills and healthy competition boosting confidence and unity across all ages" id="message" style="height: 100px"></textarea>
+                        <label for="message"><span class='text-primary' >Enroll - para :</span> Joining a chess club consistently sharpens strategic thinking and problem-solving skills, fosters meaningful social connections, builds confidence and perseverance, and ignites an enduring passion for complex intellectual challenges and camaraderie</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Meet Directors section</div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Name/Role Header" id="subject" placeholder="Name/Role">
+                        <label for="subject">Name/Role Header</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="Enroll Paragraph" placeholder="Enroll cultivates teamwork, discipline, and determination while building physical fitness, mental resilience, and social skills. It fosters vital life skills and healthy competition boosting confidence and unity across all ages" id="message" style="height: 100px"></textarea>
+                        <label for="message"><span class='text-primary' >Director's Word - para :</span>Rabbi Chess Club benefits from the dual guidance of two directors who collectively steward its strategic vision.</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Name/Role Header" id="subject" placeholder="Name/Role">
+                        <label for="subject">Name/Role of another Lead Header </label>
+                    </div>
+                </div>
+                <h1 class="display-6 mb-5">Reliably endorsed by countless individuals and organizations.</h1>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">the process header </div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Process Header" id="subject" placeholder="process">
+                        <label for="subject">Reliably endorsed by countless individuals and organizations.</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">the process first slide </div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Process sub Header" id="subject" placeholder="process">
+                        <label for="subject">1. Pitching</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="process Paragraph" placeholder="process" id="message" style="height: 100px"></textarea>
+                        <label for="message">Promoting our innovative services which can include a live demonstration to showcase benefits</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">the process second slide </div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Process second sub slide Header" id="subject" placeholder="process  second sub slide Header">
+                        <label for="subject">2. Contract Signing</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="process second slide Paragraph" placeholder="the process second slide Paragraph" id="message" style="height: 100px"></textarea>
+                        <label for="message">Following the ratification and endorsement of our services, the next phase commences.</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">the process third slide </div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Process third sub slide Header" id="subject" placeholder="the process third slide">
+                        <label for="subject">3. Introducing Our Comprehensive Suite of Services</label>
+                    </div>
+                </div>
+               
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="process third slide Paragraph" placeholder="the process third slide Paragraph" id="message" style="height: 100px"></textarea>
+                        <label for="message">Through an organized schedule, we track progress systematically and ensure every milestone is met.</label>
+                    </div>
+                </div>
+
+                <h1 class="display-6 mb-5">Footer Section Start</h1>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Drop Social Media Links Below </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="social" id="subject" placeholder="social">
+                        <label for="subject">Facebook Links</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="social" id="subject" placeholder="social">
+                        <label for="subject">Twitter Links</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="social" id="subject" placeholder="social">
+                        <label for="subject">Twitter Links</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="social" id="subject" placeholder="social">
+                        <label for="subject"> Linkedn Links</label>
+                    </div>
+                </div>
+
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Address </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Address" id="subject" placeholder="Address">
+                        <label for="subject">Nairobi, Kenya</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="tel" class="form-control" name="phone" id="subject" placeholder="phone">
+                        <label for="subject">+254 712 508640</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="gmail" class="form-control" name="gmail" id="subject" placeholder="gmail">
+                        <label for="subject">RabbiChess.academy@gmail.com</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">News Letter Details Explanation </div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="newsletter" id="subject" placeholder="Newletter">
+                        <label for="subject">Share your email and receive new info from RCC</label>
+                    </div>
+                </div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">News Letter Details Explanation </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="RabbiClub" id="subject" placeholder="RubbiClub">
+                        <label for="subject">RabbiClub</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input  type="text" class="form-control" name="RabbiClub info" id="subject" placeholder="RabbiClub info">
+                        <label for="subject">Our coaching programs empower individuals and institutions to cultivate dedication, teamwork...</label>
+                    </div>
+                </div>
+                
+
+
+                <div class="d-flex">
+                    <div class="col-12">
+                        <button class="btn btn-dark py-2 px-3 me-3" type="submit" value="Send">
+                            Preview
+                            <div class="d-inline-flex btn-sm-square bg-secondary text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-dark py-2 px-3 me-3" type="submit" value="Send">
+                            Deploy
+                            <div class="d-inline-flex btn-sm-square bg-secondary text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-up"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+
+
+    <!--left division
+    
+    
+    
+    
+    
+    -->
+    <div class="col-lg-8  wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
+        <div class="position-relative  rounded overflow-hidden h-100">
+           <!-- Carousel Start -->
+    <div class=" container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100 object-fit:cover; " height="450px" src="img/1680775971936.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Push limits, embrace challenges, achieve greatness</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Set high standards, face every obstacle with resilience, and strive to leave a legacy of excellence. Let hard work fuel your journey and inspire others with your relentless spirit.                                    </p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img class="w-100 object-fit:cover;" height="450px" src="img/1680775976059.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Work together, overcome hurdles with unity</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Inspire through collective effort. Let collaboration guide your path, and create moments of triumph that celebrate the power of a shared vision.</p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+     <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-10 pt-5 pe-5" src="img/1680775976059.jpg" alt="" style="object-fit:cover; height: 70%;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/1680775971936.jpg" alt="" style="width: 200px; height: 200px; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="fs-5 text-uppercase text-primary">About Rabbi Chess Club</p>
+                    <h1 class="display-5 pb-4 m-0">Rabbi, Fostering Excellence and Growth Through Chess Programs</h1>
+                    <p class="pb-4">Rabbi Chess Club is a
+registered company in Kenya. We offer a variety of
+Chess coaching services to schools, institutions,
+and corporates.</p>
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-6">
+                            <div class="ps-1- d-flex align-items-center justify-content-start">
+                                <span class="bg-transparent btn-md-square rounded-circle mt-1 me-1">
+                                    <img src="img/girl-toon.png" class=" text-center" alt="" width="30" srcset="">
+                                    </span>
+                                <div class="ms-4">
+                                    <h5>Our Vision</h5>
+                                    <p>To establish ourselves as a globally renowned provider of exceptional Chess coaching services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="ps-1 d-flex align-items-center justify-content-start">
+                                <span class="bg-transparent btn-md-square rounded-circle mt-1 me-1">
+                                    <img src="img/kid-toon3.png" class=" text-center" alt="" width="30" srcset="">
+                                </span>
+                                <div class="ms-4">
+                                    <h5>Our Mission</h5>
+                                    <p>To refine and develop every sporting talent into a proficient skill.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-secondary p-3 mb-4">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-3">
+                                <img src="img/man-toon.png" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <div class="col-6">
+                                <p class="mb-0">"Transforming Chess talent into excellence with tailored, professional coaching services."
+
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <p class="mb-2 text-dark">Core Values</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>Integrity</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>Commitment</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>Discipline</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>Chessmanship</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>Professionalism</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container mt-2 text-center bg-primary py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-2">
+                    <img src="img/mann.png" class="bg-transparent" alt="" width="100%" srcset="">
+                    
+                </div>
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="mb-0">Every individual holds the resilience to attain excellence through resolve.</h1>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+     <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-9 mb-5">Ignite change: join our cause.</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/kid-toon1.png" width="50%" alt="">
+                        <h4 class="mb-3">Chess Education</h4>
+                        <p class="mb-4">This timeless strategic board game fosters critical thinking, problem-solving, concentration, and creativity in children, reinforcing growth and resilience.
+                             It transforms leisure into skill acquisition and lifelong learning for all ages.</p>
+                        <a class="btn btn-outline-primary px-3" href="">
+                            Learn More
+                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/kid-toon.png" width="50%" alt="">
+                        <h4 class="mb-3">Tournaments</h4>
+                        <p class="mb-4">Tournaments cultivates teamwork, discipline, and determination while building physical fitness, mental resilience, and social skills. It fosters vital life skills
+                             and healthy competition boosting confidence and unity across all ages.</p>
+                        <a class="btn btn-outline-primary px-3" href="">
+                            Learn More
+                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/excursion.png" width="40%" alt="">
+                        <h4 class="mb-3">Excursions</h4>
+                        <p class="mb-4">Excursion cultivates discipline, resilience, and respect, balancing physical strength with mental fortitude. This martial art develops self-confidence, focus, and integrity,
+                             empowering practitioners to excel in athletic, academic, and personal pursuits.</p>
+                        <a class="btn btn-outline-primary px-3" href="">
+                            Learn More
+                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Enroll Start -->
+    <div class="container-fluid Enroll my-5 py-5" data-parallax="scroll" data-image-src="img/1680775976059.jpg">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Enroll Now</div>
+                    <h1 class="display-6 text-white mb-5">Unlock your mind—enroll in our chess club.</h1>
+                    <p class="text-white-50 mb-0">Joining a chess club consistently sharpens strategic thinking and problem-solving skills, fosters meaningful social connections, builds confidence and perseverance, 
+                        and ignites an enduring passion for complex intellectual challenges and camaraderie</p>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-dark rounded p-5">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control bg-light border-0" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control bg-light border-0" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <button class="btn btn-primary px-5" style="height: 60px;">
+                                        Enroll Now
+                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Enroll End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid team py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                <p class="fs-5 text-uppercase text-primary">Our Team</p>
+                <h1 class="display-3">Meet The Directors</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-xl-5">
+                    <div class="team-img wow zoomIn" data-wow-delay="0.1s">
+                        <img src="img/1680775976059.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-xl-7">
+                    <div class="team-item wow fadeIn" data-wow-delay="0.1s">
+                        <h1>Brian N. Mwaura</h1>
+                        <h5 class="fw-normal fst-italic text-primary mb-4">Technical Director</h5>
+                        <p class="mb-4">Rabbi Chess Club benefits from the dual guidance of two directors who collectively steward its strategic vision.</p>
+                        <div class="team-icon d-flex pb-4 mb-4 border-bottom border-primary">
+                            <a class="btn btn-primary btn-lg-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-lg-square me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-lg-square me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-lg-square"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="team-item wow zoomIn" data-wow-delay="0.2s">
+                                <img src="img/1680775971936.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-content text-dark text-center py-3">
+                                    <div class="team-content-inner">
+                                        <h5 class="mb-0">Rahim Khimulu</h5>
+                                        <p class="text-dark">Administrative Director</p>
+                                        <div class="team-icon d-flex align-items-center justify-content-center">
+                                            <a class="btn btn-primary btn-sm-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-primary btn-sm-square me-2" href=""><i class="fab fa-twitter"></i></a>
+                                            <a href="#" class="btn btn-primary btn-sm-square me-2"><i class="fab fa-instagram"></i></a>
+                                            <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+
+    <!-- The Process Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">The Process</div>
+                <h1 class="display-6 mb-5">Reliably endorsed by countless individuals and organizations.</h1>
+            </div>
+            <div class="owl-carousel theProcess-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="theProcess-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/seagull-8996395.jpg" style="width: 100px; height: 100px;">
+                    <div class="theProcess-text rounded text-center p-4">
+                        <p class="mb-1">Promoting our innovative services which can include a live demonstration to showcase benefits</p>
+                        <h5 class="mb-1">1. Pitching</h5>
+                    </div>
+                </div>
+                <div class="theProcess-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/artwork-digital-art-landscape-river-wallpaper-thumb.jpg" style="width: 100px; height: 100px;">
+                    <div class="theProcess-text rounded text-center p-4">
+                        <p>Following the ratification and endorsement of our services, the next phase commences.
+                        <h5 class="mb-1">2. Contract Signing</h5>
+                    </div>
+                </div>
+                <div class="theProcess-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/mountains-minimalism-forest-firewatch-wallpaper-thumb.jpg" style="width: 100px; height: 100px;">
+                    <div class="theProcess-text rounded text-center p-4">
+                        <p>Through an organized schedule, we track progress systematically and ensure every milestone is met.</p>
+                        <h5 class="mb-1"> 3. Introducing Our Comprehensive Suite of Services</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The Process End -->
+     <!-- left Footer Start -->
+    <div style="position: relative;
+    z-index: 99;" class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn"  data-wow-delay="0.1s">
+        <div class="container py-5 bg-transparent">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">Rabbi<span class="text-white">Club</span></h1>
+                    <p>Our customized coaching programs empower individuals and institutions to cultivate dedication, teamwork, and a lasting competitive edge.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Nairobi, Kenya</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+254 712 508640</p>
+                    <p><i class="fa fa-envelope me-3"></i>RabbiChess.academy@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <p>Share your email and receive new info from RCC</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Rabbi Chess Club </a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- left Footer End -->
+
+
+
+
+        </div>
+    </div>
+    </div>
+    
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">Rabbi<span class="text-white">Chess</span></h1>
+                    <p>Our customized coaching programs empower individuals and institutions to cultivate dedication, teamwork, and a lasting competitive edge.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Nairobi, Kenya</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+254 712 508640</p>
+                    <p><i class="fa fa-envelope me-3"></i>RabbiChess.academy@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <p>Share your email and receive new info from RCC</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="index.html">Rabbi Chess Club</a>, All Right Reserved.
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
